@@ -16,4 +16,4 @@ requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
 
 [tool.poetry.scripts]
-restore-mtime = 'entry:main'
+restore-mtime = 'restore-mtime:main'
