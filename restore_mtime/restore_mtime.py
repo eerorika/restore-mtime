@@ -4,7 +4,11 @@ import argparse
 import os
 from tarfile import TarFile, TarInfo
 import tarfile
-from typing import BinaryIO, Generator
+
+try:
+    from typing import BinaryIO, Generator
+except ImportError:
+    pass
 
 
 def main():
